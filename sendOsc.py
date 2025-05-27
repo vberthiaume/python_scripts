@@ -13,4 +13,4 @@ while True:
         letter = random.choice(letters)
         print(letter)
         client.send_message(f"/note", letter)
-        sleep(1)
+        sleep(.5)
